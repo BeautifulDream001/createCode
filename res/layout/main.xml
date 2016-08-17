@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ff999999"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/code_edittext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dip"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/code_btn"
+            android:layout_width="100dip"
+            android:layout_height="40dip"
+            android:text="@string/TwoCode" />
+
+        <Button
+            android:id="@+id/btn_code"
+            android:layout_width="100dip"
+            android:layout_height="40dip"
+            android:text="@string/OneCode" >
+        </Button>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/scan_btn"
+        android:layout_width="100dip"
+        android:layout_height="40dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="7dip"
+        android:text="@string/Sanner" />
+
+    <ImageView
+        android:id="@+id/code_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dip" />
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World</string>
+    <string name="app_name">Two-dimensional code scanning</string>
+    <string name="TwoCode">二维码</string>
+    <string name="OneCode">一维码</string>
+    <string name="Sanner">扫描</string>
+    <string name="ChineseIsNotAllowed">生成条形码的时刻不能是中文</string>
+    <string name="Scanner_Cancel">扫描取消</string>
+    <string name="Scanner_Exception">扫描异常</string>
+    <string name="Scanner_content">自动扫描</string>
+
+</resources>
